@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "handson_serverless_validar_cpf": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7292",
+      "launchBrowser": false
+    }
+  }
+}

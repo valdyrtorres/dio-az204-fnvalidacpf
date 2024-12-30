@@ -1,0 +1,17 @@
+func init --worker-runtime dotnet
+
+Outro jeito:
+func new 
+Escolha HttpTrigger e o nome é fnvalidacpf
+
+func start
+----------
+
+Codificação:
+Somente post
+
+deploy
+func azure functionapp publish valdirtorresappbrazilsouthdev001
+
+Nota: ir em local.settings.json e alterar:
+"FUNCTIONS_WORKER_RUNTIME": "dotnetIsolated"
